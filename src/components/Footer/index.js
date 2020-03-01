@@ -2,53 +2,52 @@ import Link from 'next/link'
 const today = new Date();
 
 const Footer = () =>(
-    <footer class="footer-area">
-    <div class="container">
-        <div class="subscribe-area">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12">
-                    <div class="subscribe-content">
+    <footer className="footer-area">
+    <div className="container">
+        <div className="subscribe-area">
+            <div className="row align-items-center">
+                <div className="col-lg-5 col-md-12">
+                    <div className="subscribe-content">
                         <h2>Join Our Newsletter</h2>
                         <p>Get lates news updates and promotions</p>
                     </div>
                 </div>
+                <div className="col-lg-7 col-md-12">
+                    <div className="subscribe-form">
+                        <form className="newsletter-form" data-toggle="validator">
+                            <input type="email" className="input-newsletter" placeholder="Enter your email address" name="EMAIL" required autoComplete="off"/>
 
-                <div class="col-lg-7 col-md-12">
-                    <div class="subscribe-form">
-                        <form class="newsletter-form" data-toggle="validator">
-                            <input type="email" class="input-newsletter" placeholder="Enter your email address" name="EMAIL" required autocomplete="off"/>
-
-                            <button type="submit">Subscribe Now <i class="flaticon-right-chevron"></i></button>
-                            <div id="validator-newsletter" class="form-result"></div>
+                            <button type="submit">Subscribe Now <i className="flaticon-right-chevron"></i></button>
+                            <div id="validator-newsletter" className="form-result"></div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-footer-widget">
-                    <div class="logo">
+        <div className="row">
+            <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="single-footer-widget">
+                    <div className="logo">
                         <a href="#"><img src="/assets/img/logo.png" alt="image"/></a>
 
                         <p style={{justifyContent:"center", textAlign:"justify"}}> ZISC General is a leader in the provision of world class risk management solutions, exemplifying service excellence, professionalism and integrity. We have consistenly beeen ranked amoung the topmost preferred insurance companies in Zambia. Contact us or visit any of our branches countrywide.
                         </p>
                     </div>
 
-                    <ul class="social">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <ul className="social">
+                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-3">
-                <div class="single-footer-widget">
+            <div className="col-lg-2 col-md-3 col-sm-3">
+                <div className="single-footer-widget">
                     <h3>Company</h3>
 
-                    <ul class="footer-quick-links">
+                    <ul className="footer-quick-links">
                         <li> <Link href="/"><a>Home</a></Link></li>
                         <li><a href="#">Our Team</a></li>
                         <li><Link href="/about-us"><a>About Us</a></Link></li>
@@ -58,11 +57,11 @@ const Footer = () =>(
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-3">
-                <div class="single-footer-widget">
+            <div className="col-lg-2 col-md-3 col-sm-3">
+                <div className="single-footer-widget">
                     <h3>Services</h3>
 
-                    <ul class="footer-quick-links">
+                    <ul className="footer-quick-links">
                         <li><Link href="/insurance/business-insurance"><a>Business Insurance</a></Link></li>
                         <li><Link href="/insurance/agricultural-insurance"><a>Agricultural Insurance</a></Link></li>
                         <li><Link href="/insurance/personal-insurance"><a>Personal Insurance</a></Link></li>
@@ -74,11 +73,11 @@ const Footer = () =>(
             </div>
             
 
-            <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
-                <div class="single-footer-widget">
+            <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
+                <div className="single-footer-widget">
                     <h3>Contact Info</h3>
 
-                    <ul class="footer-contact-info">
+                    <ul className="footer-contact-info">
                         <li><span>Location:</span> Premium House P.O.BOX 30894 LUSAKA</li>
                         <li><span>Email:</span> <a href="#">info@zsicgi.co.zm</a></li>
                         <li><span>Phone:</span> <a href="#">+260 211 229345 </a></li>
@@ -89,13 +88,13 @@ const Footer = () =>(
             </div>
         </div>
 
-        <div class="copyright-area">
-            <div class="row align-items-center">
-                <div class="col-lg-8 col-sm-8 col-md-8">
-                    <p><i class="far fa-copyright"></i>{today.getFullYear()} ZSIC GENERAL INSURANCE LIMTED,A member of the <Link href="https://www.idc.co.zm/"><a>IDC Group.</a></Link></p>
+        <div className="copyright-area">
+            <div className="row align-items-center">
+                <div className="col-lg-8 col-sm-8 col-md-8">
+                    <p><i className="far fa-copyright"></i>{today.getFullYear()} ZSIC GENERAL INSURANCE LIMTED,A member of the <Link href="https://www.idc.co.zm/"><a>IDC Group.</a></Link></p>
                 </div>
 
-                <div class="col-lg-4 col-sm-4 col-md-4">
+                <div className="col-lg-4 col-sm-4 col-md-4">
                     <ul>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><em>Developed by <Link href="https://pathwisemedia.com"><a>Pathwisemedia</a></Link></em></li>

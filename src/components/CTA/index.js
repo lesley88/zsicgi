@@ -5,7 +5,7 @@ const CAT =(props)=>(
             <div class="ctr-content">
                 <h2> {props.data.cta_title} </h2>
                 <p>{props.data.cta_sub_title}</p>
-               <Link href="/insurance-quotation"><a class="default-btn">Get a Quote <i class="flaticon-right-chevron"></i><span> </span></a></Link>
+               <Link href="/insurance-quotation"><a class="default-btn">Contact Us <i class="flaticon-right-chevron"></i><span> </span></a></Link>
             </div>
 
             <div class="ctr-image">

@@ -1823,7 +1823,7 @@ Main Banner Area CSS
 }
 
 .item-bg4 {
-  background-image: url(/assets/img/main-banner-image/busn.jpg);
+  
   background-position: top left !important;
 }
 
@@ -2051,7 +2051,7 @@ Main Banner Area CSS
   margin-top: 0;
 }
 
-.home-slides.owl-theme .owl-nav [class*=owl-] {
+.home-slides.owl-theme .owl-nav{
   position: absolute;
   left: 50px;
   top: 45%;
@@ -3208,12 +3208,10 @@ Why Choose Us Area CSS
   transition: 0.5s;
 }
 
-.why-choose-us-slides.owl-theme .owl-nav [class*=owl-] {
+.why-choose-us-slides.owl-theme .owl-nav{
   position: absolute;
   left: 25px;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -3223,7 +3221,7 @@ Why Choose Us Area CSS
   font-size: 35px;
 }
 
-.why-choose-us-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+/* .why-choose-us-slides.owl-theme .owl-nav [class*=owl-].owl-next {
   left: auto;
   right: 25px;
 }
@@ -3231,18 +3229,18 @@ Why Choose Us Area CSS
 .why-choose-us-slides.owl-theme .owl-nav [class*=owl-]:hover {
   color: #21520a;
   background-color: transparent;
-}
+} */
 
-.why-choose-us-slides.owl-theme .owl-dots {
+/* .why-choose-us-slides.owl-theme .owl-dots {
   line-height: .01;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 25px;
   margin-top: 0;
-}
+} */
 
-.why-choose-us-slides.owl-theme .owl-dots .owl-dot span {
+/* .why-choose-us-slides.owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 2px;
   margin: 0 3px;
@@ -3250,16 +3248,16 @@ Why Choose Us Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 0;
-}
+} */
 
-.why-choose-us-slides.owl-theme .owl-dots .owl-dot:hover span {
+/* .why-choose-us-slides.owl-theme .owl-dots .owl-dot:hover span {
   background-color: #21520a;
 }
 
 .why-choose-us-slides.owl-theme .owl-dots .owl-dot.active span {
   background-color: #21520a;
   width: 25px;
-}
+} */
 
 .why-choose-us-slides.owl-theme:hover .owl-nav {
   opacity: 1;
@@ -7564,4 +7562,9 @@ body ul li ul li {
   padding-bottom: 0;
   margin-bottom: 0;
   justify-content: flex-end;
+}
+
+.why-us-cover .cover-image img{
+  width: auto;
+  min-height:690px ;
 }

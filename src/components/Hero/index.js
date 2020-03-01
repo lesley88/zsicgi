@@ -1,10 +1,8 @@
 import Link from "next/link";
-
+import '../../global.css'
 const Hero =(props)=>(
-     <div className="home-area home-slides-two owl-carousel owl-theme">
-    
-
-        <div className="banner-section item-bg4"  >
+     <div className="home-area">
+        <div className="banner-section item-bg4" style={{backgroundImage: `url(${props.data.image})`}}  >
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">

@@ -1,8 +1,13 @@
 import Link from 'next/link'
+import styled from 'styled-components'
+const Wrapper = styled.section`
+    margin: 0;
+    padding:0;
+`;
 const Quote = (props) =>{
 
     return(
-        <section className="quote-area ptb-100">
+        <Wrapper className="quote-area ptb-100">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
@@ -19,8 +24,8 @@ const Quote = (props) =>{
                     <div className="col-lg-6 col-md-12">
                         <div className="tab quote-list-tab">
                             <ul className="tabs">
-                                <li><Link href="#"><a> Business Insurance </a></Link></li>
-                                <li><Link href="#"><a> Other Insurances </a></Link></li>
+                                <li><Link href="#"><a>Business Insurance </a></Link></li>
+                                <li><Link href="#"><a>Other Insurances </a></Link></li>
                             </ul>
         
                             <div className="tab_content">
@@ -75,7 +80,7 @@ const Quote = (props) =>{
                     </div>
                 </div>
             </div>
-            </section>
+            </Wrapper>
     )
 }
 export default Quote;

@@ -36,11 +36,11 @@ export default class MyDocument extends Document {
     return(
       <html lang="en">
         <Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" async/>
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="/assets/css/animate.min.css"/>
         <link rel="stylesheet" href="/assets/css/fontawesome.min.css"/>
         <link rel="stylesheet" href="/assets/css/flaticon.css"/>
-        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css"/>
         <link rel="stylesheet" href="/assets/css/slick.min.css"/>
         <link rel="stylesheet" href="/assets/css/meanmenu.css"/>
         <link rel="stylesheet" href="/assets/css/magnific-popup.min.css"/>
