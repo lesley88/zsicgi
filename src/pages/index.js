@@ -9,6 +9,7 @@ import Service from '../components/Services/HomeServices';
 import WhyUs from '../components/WhyUS';
 import Quote from '../components/Quote';
 import CAT from '../components/CTA';
+import HomeBlog from '../components/Blog/Home';
 
 // const News =(props)=>(
 //   <ul>
@@ -30,6 +31,7 @@ const Index = props => (
    <WhyUs data={props.data}/>
   
    <Quote allInsurances={props.allInsurances}/>
+   <HomeBlog data={props.data}/>
    <CAT data={props.data}/>
   </Layout>
 );

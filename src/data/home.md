@@ -54,6 +54,10 @@ services:
 
 # why us
 
+# blog
+
+blogHeader: Our news and opions writien by our stuff members. 
+
 # CTA 
 cta_title: Get Your Insurance
 cta_sub_title: You are in safe hands, we will see you through until your are covered

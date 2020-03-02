@@ -46,6 +46,7 @@ Index.getInitialProps = async function() {
 
    //get posts & context from folder
    const posts = (context => {
+   
     const keys = context.keys();
     const values = keys.map(context);
     const data = keys.map((key, index) => {
@@ -61,10 +62,10 @@ Index.getInitialProps = async function() {
       return {
         document,
         slug
-      };
+      }
     });
     return data;
-  })(require.context("../services", true, /\.md$/));
+  })(require.context("../services", true, /\.md$/,5));
 
   return {
     allInsurances: posts,
