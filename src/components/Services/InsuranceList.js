@@ -20,18 +20,18 @@ const InsuranceList = (props) => {
                     <Link
                     key={post.slug}
                     href={{ pathname: `/insurance/${post.slug}` }}
-                  >
-                    <a className="col-lg-4 col-md-6 col-sm-6">
+                  ><a className="col-lg-4 col-md-6 col-sm-6">
                    
-                        <div className="services-box" style={{minHeight: "400px"}}>
-                            <div className="image">
+                        <div className="services-box" >
+                            <div className="image" >
                             <img src={post.document.data.hero_image} alt={post.document.data.hero_image}
-                             style={{width: "100%", height: "100%", }}
+                            height="350px"
+                            width="100%"
                             />
                             </div>
     
                             <div className="content">
-                                <h2><Link href={{ pathname: `/insurance/${post.slug}` }}><a>{post.document.data.title}</a></Link></h2>
+                                <h3><Link href={{ pathname: `/insurance/${post.slug}` }}><a>{post.document.data.title}</a></Link></h3>
                                 <p> {post.document.data.header} </p>
 
                                 {/* <p style={{textTransform:"lowercase"}}> <ReactMarkdown source={truncateSummary(post.document.content)} /></p> */}

@@ -30,7 +30,7 @@ const Quote = (props) =>{
         
                             <div className="tab_content">
                                 <div className="tabs_item">
-                                    <p>Our experts will reply you with a quote very soon</p>
+                                    <p>We will replay to you with a quote very soon</p>
                                     <form>
                                         <div className="form-group">
                                             <input type="text" className="form-control" placeholder="Your Name"/>

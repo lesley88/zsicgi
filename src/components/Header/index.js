@@ -62,8 +62,7 @@ const Nav = () => {
                 <div className="pearo-nav">
                     <div className="container" style={{width:"100% !important"}}>
                         <nav className="navbar navbar-expand-md navbar-light"  >
-                            <Link href="/">
-                            <a className="navbar-brand">
+                            <Link href="/"><a className="navbar-brand">
                                 <img src="/assets/img/logo.png" alt="logo"/>
                             </a>
                                 </Link>

@@ -47,7 +47,7 @@ const Service = (props)=>{
                     </div>
                 </div>
                 <div style={{margin:"25px", textAlign:"center", fontSize:"30px", color:"#000"}}>
-                    <Link href="/insurance">See all our Services</Link>
+                    <Link href="/insurance"><a>See all our Services</a></Link>
                 </div>
                 </section>
     )

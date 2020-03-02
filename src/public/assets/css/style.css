@@ -7546,14 +7546,12 @@ text-align: justify;
 body ul li ul li {
   list-style: none;
 }
-.single-services-box{
-  min-height: 360px;
-}
+
 .single-services-box ul li {
   list-style-type: none;
   line-height: 18px;
   color: #333;
-  text-align: left;
+  text-align: center;
 }
 .single-services-box .read-more-btn{
   align-items: flex-end;
@@ -7564,7 +7562,18 @@ body ul li ul li {
   justify-content: flex-end;
 }
 
-.why-us-cover .cover-image img{
-  width: auto;
-  min-height:690px ;
+.services-area .services-box .content{
+  margin-top: -20px;
+  height: 170px;
+}
+.services-area .services-box .content h3{
+  font-size: 20px;
+}
+
+.services-area .services-box image {
+  min-height: 320px;
+  max-height: 320px;
+}
+.services-area .services-box .content .read-more-btn a{
+  margin-bottom: 0;
 }

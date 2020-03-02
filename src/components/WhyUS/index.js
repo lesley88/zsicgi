@@ -2,11 +2,11 @@ const WhyUs = () =>(
     <section className="why-choose-us-area" style={{marginBottom:"100px"}}>
     <div className="container-fluid">
         <div className="row">
-            <div className="col-lg-5 col-md-12">
-                <div className="why-choose-us-slides owl-theme owl-carousel">
-                    <div className="why-choose-us-image bg1">
-                        <img src="/assets/img/why-choose-img1.jpg" alt="image"/>
-                    </div>
+            <div className="col-lg-5 col-md-12" style={{background:"url(/assets/img/why-choose-img1.jpg)", backgroundSize:"cover"}}>
+              
+               
+                        {/* <img src="/assets/img/why-choose-img1.jpg" alt="image"/> */}
+                 
 
                     {/* <div className="why-choose-us-image bg2">
                         <img src="/assets/img/why-choose-img2.jpg" alt="image"/>
@@ -15,7 +15,7 @@ const WhyUs = () =>(
                     <div className="why-choose-us-image bg3">
                         <img src="/assets/img/why-choose-img3.jpg" alt="image"/>
                     </div> */}
-                </div>
+            
             </div>
 
             <div className="col-lg-7 col-md-12">

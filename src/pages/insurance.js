@@ -2,19 +2,26 @@ import matter from 'gray-matter'
 
 import Layout from "../layout";
 import InsuranceList from "../components/Services/InsuranceList";
+import Head from 'next/head';
 
 const Index = (props) => {
+  const data = props.data
   return (
     <Layout pathname="/" siteTitle={props.title} siteDescription={props.description}>
-         <div class="page-title-area page-title-bg3">
+      <Head>
+        <title> {data.title} </title>
+      </Head>
+         <div class="page-title-area page-title-bg3" style={{backgroundImage:`url(${data.image})`}}>
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="page-title-content">
-                            <h1 style={{color:"#fff"}}>Insurance Services</h1>
+                            <h1 style={{color:"#fff"}}> {data.title} </h1>
                             <ul style={{color:"#fff"}} >
-                                <li>Home</li>
-                                <li>Business Insurance</li>
+                           
+                                <li>
+                                  <h2 style={{fontSize:"26px", color:"#cca352"}}> {data.intro} </h2>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -23,7 +30,9 @@ const Index = (props) => {
         </div>
        
       <section>
-        <InsuranceList allInsurances={props.allInsurances}/>
+        <InsuranceList 
+        
+        allInsurances={props.allInsurances}/>
       </section>
     </Layout>
   );
@@ -32,7 +41,9 @@ const Index = (props) => {
 export default Index;
 
 Index.getInitialProps = async function() {
-  
+  const content = await import(`../data/services.md`)
+  const data = matter(content.default)
+
    //get posts & context from folder
    const posts = (context => {
     const keys = context.keys();
@@ -57,6 +68,7 @@ Index.getInitialProps = async function() {
 
   return {
     allInsurances: posts,
+    ...data
     
   }
 }
