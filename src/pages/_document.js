@@ -50,12 +50,12 @@ export default class MyDocument extends Document {
         <link rel="stylesheet" href="/assets/css/responsive.css"/>
         </Head>
         <body>
-        {/* <div class="preloader">
+        <div class="preloader">
             <div class="loader">
                 <div class="shadow"></div>
                 <div class="box"></div>
             </div>
-        </div> */}
+        </div>
         <div className="root">
           
           {main}
