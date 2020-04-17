@@ -12,8 +12,8 @@ const Nav = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-5 col-md-12">
                             <ul className="top-header-nav">
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">Our Solutions</a></li>
+                                <li><a href="#">Vacancies</a></li>
+                                <li><a href="#">Special Offers</a></li>
                                 <li><a href="#">Claims</a></li>
                             </ul>
                         </div>
@@ -72,36 +72,56 @@ const Nav = () => {
                                 <ul className="navbar-nav">
                                     
                                     <li className="nav-item"><Link href="/"><a className="nav-link">Home</a></Link></li>
+                                    <li className="nav-item"><Link href="/insurance"><a className="nav-link">Insurance services <i className="flaticon-down-arrow"></i></a></Link>
+                                        <div className="dropdown-menu multi-column columns-3">
+                                                <div className="row">
+                                                    <div className="col-md-4">
+                                                        <ul className=" multi-column-dropdown"> 
+                                                            <li className="nav-item"><Link href="/insurance/burglary"><a className="nav-link">Burglary</a></Link></li>
+                                                            <li className="nav-item"><Link href="/insurance/agricultural-insurance"><a className="nav-link">Agricultural Insurance</a></Link></li>
+                                                            <li className="nav-item"><Link href="/insurance/personal-insurance"><a className="nav-link">Personal Insurance</a></Link></li>
+                                                            <li className="nav-item"><Link href="/insurance/motor-vehicle-insurance"><a className="nav-link">Motor Vehicle Insurance</a></Link></li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <div className="col-md-4">
+                                                        <ul>
+                                                        <li className="nav-item"><Link href="/insurance/fire-insurance"><a className="nav-link">Fire Insurance</a></Link></li>
+                                                            <li className="nav-item"><Link href="/insurance/farm-pack-insurance"><a className="nav-link">Farm Pack Insurance</a></Link></li>
+                                                        <li className="nav-item"><Link href="/insurance/business-insurance"><a className="nav-link">Business Insurance</a></Link></li>
+                                                        <li className="nav-item"><Link href="/insurance/accident-insurance"><a className="nav-link">Accident Insurance</a></Link></li>
 
-                                    <li className="nav-item"><Link href="/about-us"><a className="nav-link">About</a></Link></li>
-
-                                    <li className="nav-item"><Link href="/insurance"><a className="nav-link">Insurance <i className="flaticon-down-arrow"></i></a></Link>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item"><Link href="/insurance/business-insurance"><a className="nav-link">Business Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/accident-insurance"><a className="nav-link">Accident Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/aviation-insurance"><a className="nav-link">Aviation Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/parkaged"><a className="nav-link">Parkaged</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/equipment-insurance"><a className="nav-link">Equipment Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/burglary"><a className="nav-link">Burglary</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/agricultural-insurance"><a className="nav-link">Agricultural Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/personal-insurance"><a className="nav-link">Personal Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/motor-vehicle-insurance"><a className="nav-link">Motor Vehicle Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/fire-insurance"><a className="nav-link">Fire Insurance</a></Link></li>
-                                            <li className="nav-item"><Link href="/insurance/farm-pack-insurance"><a className="nav-link">Farm Pack Insurance</a></Link></li>
-                                        </ul>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="col-md-4">
+                                                        <ul>
+                                                        <li className="nav-item"><Link href="/insurance/aviation-insurance"><a className="nav-link">Aviation Insurance</a></Link></li>
+                                                        <li className="nav-item"><Link href="/insurance/parkaged"><a className="nav-link">Parkaged</a></Link></li>
+                                                        <li className="nav-item"><Link href="/insurance/equipment-insurance"><a className="nav-link">Equipment Insurance</a></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                        </div>
                                     </li> 
-                                    
-                                    <li className="nav-item"><Link href="/insurance"><a className="nav-link">Company <i className="flaticon-down-arrow"></i></a></Link>
+                                    <li className="nav-item"><a href="/salvages" className="nav-link">Agents And Brokers </a></li>
+                                    <li className="nav-item"><a href="/salvages" className="nav-link">Customer Portal</a></li>
+                                    <li className="nav-item"><Link href="/insurance"><a className="nav-link">About Us <i className="flaticon-down-arrow"></i></a></Link>
                                         <ul className="dropdown-menu">
-                                            <li className="nav-item"><Link href="/business-insurance"><a className="nav-link">About Us</a></Link></li>
+                                            <li className="nav-item"><Link href="/business-insurance"><a className="nav-link">Our Story </a></Link></li>
                                             <li className="nav-item"><Link href="/accident-insurance"><a className="nav-link">Vacancies</a></Link></li>
                                             <li className="nav-item"><Link href="/aviation-insurance"><a className="nav-link">Tenders</a></Link></li>
                                             <li className="nav-item"><Link href="/payment-plans"><a className="nav-link">Flexible Payment Plans</a></Link></li>
                                             <li className="nav-item"><Link href="/downloads"><a className="nav-link">Downloads</a></Link></li>
                                         </ul>
                                     </li>                                  
-
-                                    <li className="nav-item"><a href="contact.html" className="nav-link">Contact</a></li>
+                                    <li className="nav-item"><a href="/salvages" className="nav-link">Salvages <i className="flaticon-down-arrow"></i></a>
+                                        <ul className="dropdown-menu">
+                                            <li className="nav-item"><Link href="/salvages/#howto"><a className="nav-link">How to</a></Link></li>
+                                            <li className="nav-item"><Link href="/salvages/#howto"><a className="nav-link">Available Salvages</a></Link></li>
+                                        </ul>
+                                    </li>
+                                    <li className="nav-item"><a href="/blog" className="nav-link">Blog</a></li>
+                                    <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
                                 </ul>
 
                                 {/* <div className="others-option">

@@ -31,8 +31,8 @@ const Footer = () =>(
                     <div className="logo">
                         <a href="#"><img src="/assets/img/logo.png" alt="image"/></a>
 
-                        <p style={{justifyContent:"center", textAlign:"justify"}}> ZISC General is a leader in the provision of world class risk management solutions, exemplifying service excellence, professionalism and integrity. We have consistenly beeen ranked amoung the topmost preferred insurance companies in Zambia. Contact us or visit any of our branches countrywide.
-                        </p>
+                        {/* <p style={{justifyContent:"center", textAlign:"justify"}}> ZISC General is a leader in the provision of world class risk management solutions, exemplifying service excellence, professionalism and integrity. We have consistenly beeen ranked amoung the topmost preferred insurance companies in Zambia. Contact us or visit any of our branches countrywide.
+                        </p> */}
                     </div>
 
                     <ul className="social">
@@ -45,7 +45,7 @@ const Footer = () =>(
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3">
                 <div className="single-footer-widget">
-                    <h3>Company</h3>
+                    <h3>About</h3>
 
                     <ul className="footer-quick-links">
                         <li> <Link href="/"><a>Home</a></Link></li>

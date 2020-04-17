@@ -2,7 +2,7 @@
 date: '2019-07-09T16:04:44.000Z'
 hero_image: /assets/img/services-image/busn.jpg
 title: Business Insurance
-header: The Online Business Insurance That Matters
+header: The Only Business Insurance You Need
 heading: "Cupcake ipsum dolor sit amet sesame snaps bear claw cookie macaroon. Marshmallow I love apple pie I love cotton candy brownie tootsie roll jelly beans. Sweet toffee dragée I love caramels gummi bears cupcake cupcake donut. Cheesecake cookie gummi bears lollipop. Croissant jelly I love liquorice. Sugar plum liquorice tootsie roll I love. Pastry halvah liquorice carrot cake gingerbread. Liquorice bonbon topping lollipop. Gingerbread sugar plum gingerbread dragée dessert bonbon jelly-o. Danish ice cream cake bear claw cupcake soufflé chupa chups chocolate apple pie.
 
 Candy I love tart. Bear claw candy canes ice cream biscuit powder I love croissant carrot cake. Cupcake ice cream gummies wafer jelly-o toffee. Sugar plum soufflé I love cake. Oat cake chocolate bar I love. Sweet candy pudding cheesecake I love muffin toffee.
@@ -45,7 +45,7 @@ This insurance is taken up by employers against loss of money and stock arising 
 The basis of cover can either be on blanket, position or named employee.
 
 ### Money Insurance
-This policy covers loss of money belonging to the insured whilst in transit or on the insured’s premises.
+This policy covers loss of money belonging to the insured whilst in transit or on the insured's premises.
 The policy covers the following:
 <ul class="features-list">
 <li><i class="fas fa-check"></i>Loss of or damage to safes and strong room resulting from theft or any attempt threat</l>

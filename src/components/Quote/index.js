@@ -23,14 +23,14 @@ const Quote = (props) =>{
 
                     <div className="col-lg-6 col-md-12">
                         <div className="tab quote-list-tab">
-                            <ul className="tabs">
-                                <li><Link href="#"><a>Business Insurance </a></Link></li>
-                                <li><Link href="#"><a>Other Insurances </a></Link></li>
+                            <ul className="tabs text-center">
+                                <li><Link href="#"><a>Contact US </a></Link></li>
+                                <li><Link href="#"><a>Get A Quote</a></Link></li>
                             </ul>
         
                             <div className="tab_content">
                                 <div className="tabs_item">
-                                    <p>We will replay to you with a quote very soon</p>
+                                    {/* <p>We will replay to you with a quote very soon</p> */}
                                     <form>
                                         <div className="form-group">
                                             <input type="text" className="form-control" placeholder="Your Name"/>
@@ -42,14 +42,17 @@ const Quote = (props) =>{
                                             <input type="text" className="form-control" placeholder="Your Phone"/>
                                         </div>
                                         <div className="form-group">
-                                        <input type="text" className="form-control" value="Business Insurance"/>
+                                            <textarea type="text" className="form-control" placeholder="Details" style={{textTransform:"capitalize"}}/>
                                         </div>
+                                        {/* <div className="form-group">
+                                        <input type="text" className="form-control" value="Business Insurance"/>
+                                        </div> */}
                                         <button type="submit" className="default-btn">Get A Free Quote <span></span></button>
                                     </form>
                                 </div>
         
                                 <div className="tabs_item">
-                                    <p>Our experts will reply you with a quote very soon</p>
+                                    {/* <p>Our experts will reply you with a quote very soon</p> */}
                                     <form>
                                         <div className="form-group">
                                             <input type="text" className="form-control" placeholder="Your Name"/>
@@ -59,6 +62,9 @@ const Quote = (props) =>{
                                         </div>
                                         <div className="form-group">
                                             <input type="text" className="form-control" placeholder="Your Phone"/>
+                                        </div>
+                                        <div className="form-group">
+                                            <textarea type="text" className="form-control" placeholder="Details" style={{textTransform:"capitalize"}}/>
                                         </div>
                                         <div className="form-group">
                                             <select>

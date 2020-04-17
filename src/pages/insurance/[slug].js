@@ -95,6 +95,9 @@ export default function BlogTemplate(props) {
                                             <input type="text" className="form-control" placeholder="Your Phone"/>
                                         </div>
                                         <div className="form-group">
+                                            <textarea type="text" className="form-control" placeholder="Details" style={{textTransform:"capitalize"}}/>
+                                        </div>
+                                        <div className="form-group">
                                         <input type="text" className="form-control" value={`${frontmatter.title}`}/>
                                         </div>
                                         <button type="submit" className="default-btn">Get A Free Quote <span></span></button>

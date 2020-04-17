@@ -7,7 +7,7 @@ const Hero =(props)=>(
                 <div className="d-table-cell">
                     <div className="container">
                         <div className="main-banner-content">
-                            <span className="sub-title">Bee Free Of Mind</span>
+                            <span className="sub-title"></span>
                             <h1>{props.data.title}<br/></h1>
                             <h2 style={{color:"#fff", fontWeight:"bold"}}> {props.data.sub_title} </h2>
                             <div className="btn-box">

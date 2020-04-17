@@ -6,8 +6,8 @@ const AboutUS =()=>(
         <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
                 <div className="about-title">
-                    <span>About Us</span>
-                    <h2>We are Award winning company</h2>
+                    <span style={{color:"#333"}}>About Us</span>
+                    <h2 style={{color:"#333"}}>We are An Award winning company</h2>
                 </div>
             </div>
 
@@ -22,7 +22,7 @@ const AboutUS =()=>(
             </div>
         </div>
 
-        <div className="about-boxes-area">
+        <div className="about-boxes-area" >
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-6">
                     <div className="single-about-box">

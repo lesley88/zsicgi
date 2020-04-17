@@ -323,8 +323,8 @@ Preloader Area CSS
   width: 140%;
   height: 10px;
   background: #546a1f;
-  -webkit-animation: animate 3s ease-in 1s infinite reverse;
-          animation: animate 3s ease-in 1s infinite reverse;
+  -webkit-animation: animate .2s ease-in .1s infinite reverse;
+          animation: animate .2s ease-in .1s infinite reverse;
   position: absolute;
   top: 0;
   left: 0;
@@ -344,19 +344,19 @@ Preloader Area CSS
 
 @-webkit-keyframes loader {
   0% {
-    left: -100px;
+    left: -400px;
   }
   100% {
-    left: 110%;
+    left: 310%;
   }
 }
 
 @keyframes loader {
   0% {
-    left: -100px;
+    left: -400px;
   }
   100% {
-    left: 110%;
+    left: 310%;
   }
 }
 
@@ -365,21 +365,21 @@ Preloader Area CSS
     border-bottom-right-radius: 3px;
   }
   25% {
-    -webkit-transform: translateY(9px) rotate(22.5deg);
-            transform: translateY(19px) rotate(180.5deg);
+    -webkit-transform: translateY(100px) rotate(22.5deg);
+            transform: translateY(100px) rotate(180.5deg);
   }
   50% {
-    -webkit-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+    -webkit-transform: translateY(18px) scale(1, 0.9) rotate(145deg);
             transform: translateY(18px) scale(1, 0.9) rotate(45deg);
     border-bottom-right-radius: 40px;
   }
   75% {
-    -webkit-transform: translateY(9px) rotate(67.5deg);
+    -webkit-transform: translateY(9px) rotate(267.5deg);
             transform: translateY(9px) rotate(67.5deg);
   }
   100% {
-    -webkit-transform: translateY(0) rotate(90deg);
-            transform: translateY(0) rotate(90deg);
+    -webkit-transform: translateY(0) rotate(290deg);
+            transform: translateY(0) rotate(290deg);
   }
 }
 
@@ -608,16 +608,16 @@ Navbar Area CSS
 }
 
 .pearo-nav .navbar .navbar-nav .nav-item a {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   color: #001D31;
-  text-transform: capitalize;
+  text-transform: none;
   padding-left: 0;
   padding-right: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .pearo-nav .navbar .navbar-nav .nav-item a:hover, .pearo-nav .navbar .navbar-nav .nav-item a:focus, .pearo-nav .navbar .navbar-nav .nav-item a.active {
@@ -672,9 +672,8 @@ Navbar Area CSS
   position: relative;
   color: #001D31;
   background-color: transparent;
-  border-bottom: 1px solid #e5e5e5;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .pearo-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .pearo-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .pearo-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
@@ -2456,7 +2455,7 @@ About Area CSS
 
 .single-about-box {
   margin-top: 30px;
-  background-color: #ffffff;
+  background-color: #efefef;
   padding: 30px;
   border-radius: 5px;
   text-align: center;
@@ -7550,6 +7549,7 @@ body ul li ul li {
   line-height: 18px;
   color: #333;
   text-align: center;
+  width: 100%;
 }
 .single-services-box .read-more-btn{
   align-items: flex-end;
@@ -7574,4 +7574,53 @@ body ul li ul li {
 }
 .services-area .services-box .content .read-more-btn a{
   margin-bottom: 0;
+}
+
+
+
+.dropdown-menu {
+  min-width: 200px;
+ 
+}
+
+.dropdown-menu.columns-3 {
+  min-width: 800px;
+  margin-left: -300px !important;
+  margin-right: 50px;
+  
+}
+.dropdown-menu li{
+  padding: 5px 15px;
+  margin:10px !important
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+  font-weight: 300;
+  font-size: 16px !important;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+ 
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
 }

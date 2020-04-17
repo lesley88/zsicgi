@@ -101,6 +101,9 @@ const AboutUS =(props)=>{
                                             <input type="text" className="form-control" placeholder="Your Phone"/>
                                         </div>
                                         <div className="form-group">
+                                            <textarea type="text" className="form-control" placeholder="Details" style={{textTransform:"capitalize"}}/>
+                                        </div>
+                                        <div className="form-group">
                                             <select>
                                                 <option value="1">Property Used For</option>
                                                 {props.allInsurances.map(item=>(
