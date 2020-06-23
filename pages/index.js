@@ -25,7 +25,7 @@ export default function Home(props) {
       <About data={props.frontmatter}/>
       {/* <WhyUs data={props.frontmatter}/> */}
       <Services data={props.frontmatter} />
-      <Quote data={props.frontmatter}/>
+      <Quote data={props.allPostsData} frontmatter={props.frontmatter} />
       <Blog data={props.posts} frontmatter={props.frontmatter}/>
     </Layout>
   );
