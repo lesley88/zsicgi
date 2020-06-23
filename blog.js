@@ -24,7 +24,7 @@ export default function blog({posts, frontmatter}) {
                       <div className="col-lg-6 col-md-6" key={item.id}>
                       <div className="single-blog wow fadeInUp" data-wow-delay=".2s" style={{visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp'}}>
                         <a href="blog-details.html">
-                          <img src={`http://localhost:1337${item.cover.url}`} alt={item.cover.alternativeText} />
+                          <img src={`https://dashboard.zsicgi.co.zm/news/${item.cover.url}`} alt={item.cover.alternativeText} />
                         </a>
                         <div className="blog-content">
                           <ul>
@@ -251,7 +251,7 @@ export default function blog({posts, frontmatter}) {
 export async function getStaticProps() {
   const content = await import(`../data/blog.md`)
   const data = matter(content.default)
-  const res = await fetch('http://localhost:1337/posts')
+  const res = await fetch('https://dashboard.zsicgi.co.zm/news')
 const posts = await res.json()
 
   return {

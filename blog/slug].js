@@ -336,7 +336,7 @@ export default function Blog({post, recent}) {
 
 export async function getStaticPaths() {
   // Call an external API endpoint to get posts
-  const res = await fetch('http://localhost:1337/posts')
+  const res = await fetch('https://dashboard.zsicgi.co.zm/news')
   const posts = await res.json()
 
   // Get the paths we want to pre-render based on posts
@@ -353,9 +353,9 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   // params contains the post `id`.
   // If the route is like /posts/1, then params.id is 1
-  const res = await fetch(`http://localhost:1337/posts?slug=${params.slug}`)
+  const res = await fetch(`https://dashboard.zsicgi.co.zm/news?slug=${params.slug}`)
   const data = await res.json()
-  const responce = await fetch('http://localhost:1337/posts?_limit=3')
+  const responce = await fetch('https://dashboard.zsicgi.co.zm/news?_limit=3')
   const recent = await responce.json()
   // Pass post data to the page via props
   return { props: { post: data[0], recent } }
