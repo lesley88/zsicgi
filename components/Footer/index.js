@@ -62,7 +62,7 @@ LUSAKA
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="single-widget">
+              {/* <div className="single-widget">
                 <h3>Service Links</h3>
                 <ul>
                   <li>
@@ -97,9 +97,10 @@ LUSAKA
                   </li>
                 </ul>
               </div>
+            */}
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="single-widget">
+              {/* <div className="single-widget">
                 <h3>Newsletter</h3>
                 <p className="newsletter-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
                 <div className="subscribe-wrap">
@@ -111,7 +112,7 @@ LUSAKA
                     <div id="validator-newsletter" className="form-result" />
                   </form>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

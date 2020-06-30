@@ -43,9 +43,11 @@ export default function Blog(props) {
                         {/* <a href="index.html#">By Admin</a> */}
                       </li>
                     </ul>
-                    <a href="blog-details.html">
+                   <Link href="/blog/[slug]" as={`/blog/${item.slug}`} >
+                   <a >
                       <h3>{item.title}</h3>
                     </a>
+                   </Link>
                  <Link href="/blog/[slug]" as={`/blog/${item.slug}`} >
                  <a  className="read-more">
                       Read More
