@@ -75,14 +75,14 @@ LUSAKA
 
                   </li>
                   <li>
-                   <Link href="/about-us">
+                   <Link href="/jobs">
                    <a>
                       Jobs
                     </a>
                    </Link>
                   </li>
                   <li>
-                   <Link href="/about-us">
+                   <Link href="/tenders">
                    <a>
                      Tenders
                     </a>
@@ -103,7 +103,7 @@ LUSAKA
                    </Link>
                   </li>
                   <li>
-                   <Link href="/about-us">
+                   <Link href="/faqs">
                    <a>
                     FAQs
                     </a>
