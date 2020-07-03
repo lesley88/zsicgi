@@ -46,16 +46,29 @@ export default function Header() {
          </div>
          <div className="col-lg-6">
           <ul className="header-content-right">
+         
            <li>
-            <a href="tel:+822456974">
+            <a href="tel:+260762325932">
              <i className="bx bx-phone-call" />
-             Call : +260 211 229345 / 57
+             Call :    +260 762 325 932
+            </a>
+           </li>
+           <li>
+            <a href="tel:+260762325932">
+             <i className="bx bx-phone-call" />
+             Call : +260 770 704 465
+            </a>
+           </li>
+           <li>
+            <a href="tel:+260762325932">
+             <i className="bx bx-phone-call" />
+             WhatsApp : +260 762 024 645
             </a>
            </li>
            <li>
             <a href="mailto:info@zsicgi.co.zm">
              <i className="bx bx-envelope" />
-             Email:info@zsicgi.co.zm
+             Email :info@zsicgi.co.zm
             </a>
            </li>
           </ul>
@@ -88,7 +101,7 @@ export default function Header() {
             </a>
            </Link>
            <div
-            className="collapse navbar-collapse mean-menu"
+            className="collapse navbar-collapse mean-menu menu-white"
             id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
              <li className="nav-item">

@@ -1,6 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import styled from 'styled-components'
+
 import Date from '../../components/Date'
+
+const Img = styled.img`
+  height: 250px !important;
+
+`;
+
+
 export default function Blog(props) {
   const data= props.data  
   const frontmatter= props.frontmatter
@@ -30,7 +39,7 @@ export default function Blog(props) {
                 <div className="single-blog wow fadeInUp" data-wow-delay=".2s" style={{visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp'}}>
                 <Link href="/blog/[slug]" as={`/blog/${item.slug}`}>
                 <a>
-                    <img src={`http://dashboard.zsicgi.co.zm/${item.image.url}`}  alt="Image" height="100" />
+                    <Img src={`http://dashboard.zsicgi.co.zm/${item.image.url}`}  alt="" />
                   </a>
                 </Link>
                   <div className="blog-content">

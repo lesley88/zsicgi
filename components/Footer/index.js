@@ -1,16 +1,17 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="footer-top-area pt-100 pb-70">
-        <div className="container">
+        <footer className="footer-top-area pt-100 pb-70" >
+        <div className="container" >
           <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="single-widget">
-                <a href="index.html">
-                  <img src="assets/images/logo-generali.png" alt="Image" />
+            <div className="col-lg-6 col-md-6">
+              <div className="single-widget ">
+                <a href="/" >
+                  <img src="assets/images/logo-generali.png" alt="Image" className="text-center" />
                 </a>
-                <p>Lorem ipsum dolor sitamet,cons adipiscing elit, sed do eiusmod te incididunt ut labore et dolore Lorem ipsum dolor sitamet,cons adipiscing dolore Lorem ipsum dolor.</p>
+                <p>ZSIC GI is a subsidiary of the Industrial Development Corporation (IDC), which is a holding company wholly owned by the Government of the Republic of Zambia. A pioneer in the Zambian Insurance Industry, ZISC General is a leader in the provision of world-class risk management solutions, exemplifying service excellence, professionalism and integrity. We have consistently been ranked among the topmost preferred insurance companies in Zambia. Contact us or visit any of our branches countrywide.</p>
                 <div className="social-area">
                   <ul>
                     <li>
@@ -62,42 +63,55 @@ LUSAKA
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              {/* <div className="single-widget">
-                <h3>Service Links</h3>
+              <div className="single-widget">
+                <h3>Organisation</h3>
                 <ul>
-                  <li>
-                    <a href="index.html#">
-                      Insurance
+                <li>
+                   <Link href="/about-us">
+                   <a>
+                      About
                     </a>
+                   </Link>
+
                   </li>
                   <li>
-                    <a href="index.html#">
-                      Car Insurance
+                   <Link href="/about-us">
+                   <a>
+                      Jobs
                     </a>
+                   </Link>
                   </li>
                   <li>
-                    <a href="index.html#">
-                      Home Insurance
+                   <Link href="/about-us">
+                   <a>
+                     Tenders
                     </a>
+                   </Link>
                   </li>
                   <li>
-                    <a href="index.html#">
-                      Investment
+                   <Link href="/blog">
+                   <a>
+                      Blog
                     </a>
+                   </Link>
                   </li>
                   <li>
-                    <a href="index.html#">
-                      Health Insurance
+                   <Link href="/downloads">
+                   <a>
+                     Downloads
                     </a>
+                   </Link>
                   </li>
                   <li>
-                    <a href="index.html#">
-                      Business 
+                   <Link href="/about-us">
+                   <a>
+                    FAQs
                     </a>
+                   </Link>
                   </li>
                 </ul>
               </div>
-            */}
+           
             </div>
             <div className="col-lg-3 col-md-6">
               {/* <div className="single-widget">

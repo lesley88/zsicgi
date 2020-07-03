@@ -12,9 +12,9 @@ export default function HomeHero(props) {
        <div className="row">
         <div className="col-lg-6">
          <div className="banner-text">
-          <span className="wow fadeInUp" data-wow-delay=".2s">
+          {/* <span className="wow fadeInUp" data-wow-delay=".2s">
            General Insurance
-          </span>
+          </span> */}
           <h1 className="wow fadeInUp" data-wow-delay=".4s">
           {data.title}
           </h1>

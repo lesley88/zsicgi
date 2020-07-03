@@ -38,31 +38,31 @@ export default function contact({frontmatter, markdownBody}) {
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
-                    <input type="text" name="name" id="name" className="form-control" required data-error="Please enter your name" placeholder="Your Name" style={{backgroundImage: 'url("data:image/png', backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundSize: '16px 18px', backgroundPosition: '98% 50%'}} />
+                    <input type="text" name="name" id="name" className="form-control" required data-error="Please enter your name" placeholder="FullName" style={{backgroundImage: 'url("data:image/png', backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundSize: '16px 18px', backgroundPosition: '98% 50%'}} />
                     <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
-                    <input type="email" name="email" id="email" className="form-control" required data-error="Please enter your email" placeholder="Your Email" />
+                    <input type="email" name="email" id="email" className="form-control" required data-error="Please enter your email" placeholder="Email" />
                     <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
-                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" className="form-control" placeholder="Your Phone" />
+                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" className="form-control" placeholder="Phone" />
                     <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
-                    <input type="text" name="msg_subject" id="msg_subject" className="form-control" required data-error="Please enter your subject" placeholder="Your Subject" />
+                    <input type="text" name="msg_subject" id="msg_subject" className="form-control" required data-error="Please enter your subject" placeholder="Subject" />
                     <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-lg-12 col-md-12">
                   <div className="form-group">
-                    <textarea name="message" className="form-control" id="message" cols={30} rows={5} required data-error="Write your message" placeholder="Your Message" defaultValue={""} />
+                    <textarea name="message" className="form-control" id="message" cols={30} rows={5} required data-error="Write your message" placeholder="Message" defaultValue={""} />
                     <div className="help-block with-errors" />
                   </div>
                 </div>

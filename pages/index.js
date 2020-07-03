@@ -35,7 +35,7 @@ export async function getStaticProps() {
      const content = await import(`../data/home.md`)
      const data = matter(content.default)
      const allPostsData = getSortedPostsData()
-     const res = await fetch('https://dashboard.zsicgi.co.zm/news?_limit=3')
+     const res = await fetch('https://dashboard.zsicgi.co.zm/news?_limit=3&_sort=createdAt:DESC')
   const posts = await res.json()
    
      return {

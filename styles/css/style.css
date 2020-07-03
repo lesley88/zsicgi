@@ -5598,3 +5598,6 @@ Page-navigation Area Style*/
 .about-inner-area {
   margin-top: 30px;
 }
+.menu-white a{
+  color: #fff !important
+}

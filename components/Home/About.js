@@ -17,16 +17,16 @@ export default function About(props) {
                   <ul>
                     <li>
                       <i className="flaticon-checked" />
-                      Save Money
+                      Customized solutions
                     </li>
                     <li>
                       <i className="flaticon-checked" />
                       Over 19 branches Countrywide
                     </li>
-                    <li>
+                    {/* <li>
                       <i className="flaticon-checked" />
                       Client Testimonials
-                    </li>
+                    </li> */}
                   </ul>
                   <ul className="ml-30">
                     <li>

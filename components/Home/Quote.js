@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function Quote(props) {
     return (
         <section className="get-quat-area get-quat-area-three ptb-100">
@@ -8,27 +8,36 @@ export default function Quote(props) {
             <div className="col-lg-6 col-md-6">
               <div className="get-quat-content">
                 <div className="section-title">
-                  <h2>Get A Free Quote</h2>
+                  <h2>Contact Us</h2>
                   <p></p>
                 </div>
                 <ul>
                   <li>
-                    <i className="flaticon-maps-and-flags" />
+                    <Link href="//www.google.com/maps/place/ZSIC+General+Insurance+Limited/@-15.4231651,28.2886421,15z/data=!4m5!3m4!1s0x0:0xd1f51979b5ed5607!8m2!3d-15.4232065!4d28.2885134">
+                    <a><i className="flaticon-maps-and-flags" /></a>
+                    </Link>
+ 
                     <h3>Head Office Address</h3>
-                    <p>ZSIC General Insurance Limited
-Premium House
-P.O.BOX 30894
-LUSAKA</p>
+                    <p>ZSIC General Insurance Limited <br/>
+                    Independence Avenue
+                    </p>
                   </li>
                   <li>
                     <i className="flaticon-call" />
                     <h3>Call</h3>
-                    <p>+260 211 229345 / 57</p>
+                    <p>+260 762 325 932</p>
+                    <p>+260 770 704 465</p>
+                  </li>
+                  <li>
+                    <i className="flaticon-call" />
+                    <h3>WhatsApp</h3>
+                    <p>+260 762 024 645</p>
+                  
                   </li>
                   <li>
                     <i className="flaticon-email" />
                     <h3>Contact US</h3>
-                    <p> info@zsicgi.co.zm</p>
+                    <p>  customerservice@zsicgi.co.zm</p>
                   </li>
                 </ul>
               </div>
@@ -85,7 +94,7 @@ LUSAKA</p>
                           </div> */}
                         </div>
                         <button type="submit" className="default-btn">
-                          Get Insurance
+                          Submit
                         </button>
                       
                       </div>

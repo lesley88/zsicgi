@@ -7,11 +7,11 @@ aboutHeading: With Over 50 years in The Business
 aboutBody: ZSIC General Insurance Limited is one of the leading providers of short-term Insurance in Zambia, with vast expertise in Business, Personal, Motor Vehicle and Agricultural insurance
 # service
 service_header: General Insurance Services
-subheading: Insurance Services Designed For You
+subheading: Choose from our insurance services
 services:
   - item: Business Insurance
     link: business-insurance
-    icon: flaticon-hand
+    icon: /assets/images/BusinessInsurance.svg
     sub_services:
      - item: Accident covers
        link: /business-insurance#accident
@@ -19,14 +19,14 @@ services:
      - item: Theft Covers
   - item: Agricultural Insurance
     link: agricultural-insurance
-    icon: flaticon-contract
+    icon: /assets/images/Agriculture.svg
     sub_services:
      - item: Tobacco, Hail And Wind Insurance
      - item: Livestock And Poutry Insurance
      - item: Crop Insurance
   - item: Personal Insurance
     link: personal-insurance
-    icon:
+    icon: /assets/images/Personal.svg
     sub_services:
      - item: House Holders
      - item: House Owners
@@ -34,7 +34,7 @@ services:
 
   - item: Motor Vehicle Insurance
     link: motor-vehicle-insurance
-    icon:
+    icon: /assets/images/Accident.svg
     sub_services:
      - item: Third Party Incurance
      - item: Comprehensive Insurance
@@ -42,14 +42,14 @@ services:
   
   - item: Packaged Insurance
     link: parkaged-insurance
-    icon:
+    icon: /assets/images/PackagedInsurance.svg
     sub_services:
      - item: Farm Pack
      - item: BIZ Pack
   
   - item: RTSA
     link: rtsa
-    icon:
+    icon: /assets/images/Vehicle.svg
     sub_services:
      - item: Road Tax Insurance
      - item: Road Fitness Forms

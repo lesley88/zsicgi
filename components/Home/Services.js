@@ -22,15 +22,18 @@ const data = props.data
         <div className="container">
           <div className="section-title">
             <span>Our Service</span>
-            <h2> {data.service_header} </h2>
-            <p>{data.subheading} </p>
+            <h2> {data.subheading} </h2>
+            {/* <p>{data.subheading} </p> */}
           </div>
           <div className="row">
           {items.map(item=>{
             return(
               <div className="col-lg-4 col-sm-6" key={item.id}>
               <Service className="single-choose wow fadeInLeft" data-wow-delay=".3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInLeft', height:300}}>
-                <span className={`${item.icon}`} />
+                {/* <span className={`${item.icon}`} /> */}
+                <span>
+                  <img src={item.icon} width="40" />
+                </span>
                 <h3> {item.item} </h3>
             <p>
             <ul>
